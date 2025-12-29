@@ -223,15 +223,17 @@
           <div class="overlay-contect">
             <div class="h-21">
               <div class="container">
-                <h3 data-aos="fade-down" data-aos-duration="2000" data-aos-delay="30">به وبسات ما خوش آمدید</h3>
-                <h1 data-aos="fade-down" data-aos-duration="2000" data-aos-delay="80" class="d-block size ">
+                <h3 data-aos="fade-down" data-aos-duration="2000" data-aos-delay="100">به وبسات ما خوش آمدید</h3>
+                <h1 data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000" class="d-block size ">
                   برترین کلینیک تخصصی</h1>
-                <small data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="150" class="d-block">لورم اپسوم متن ساختگی با تولید ساختگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                <small data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="2000" class="d-block">لورم اپسوم متن ساختگی با تولید ساختگی نامفهوم از صنعت چاپ و با استفاده از طراحان
                   گرافیکی است.
                   <small class="d-block">چاپگرها و متون بلکه روزنامه و مجله در ستون</small>
                 </small>
-                <a href="#" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="270" class="btn btn-outline-light btn-lg mt-5">اطلاعات بیشتر <i
+                <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="3000">
+                <a href="#" class="btn btn-outline-light btn-lg mt-5">اطلاعات بیشتر <i
                     class="fas fa-arrow-left"></i></a>
+                    </div>
                 <div class="info-buttons">
                   <div class="matn">
                     <div class="info-box">
@@ -266,15 +268,17 @@
           <div class="overlay-contect">
             <div class="h-21">
               <div class="container">
-                <h3 data-aos="fade-down" data-aos-duration="2000" data-aos-delay="30">به وبسات ما خوش آمدید</h3>
-                <h1 data-aos="fade-down" data-aos-duration="2000" data-aos-delay="50" class="d-block size">
+                <h3 data-aos="fade-down" data-aos-duration="2000" data-aos-delay="100">به وبسات ما خوش آمدید</h3>
+                <h1 data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000" class="d-block size">
                   برترین کلینیک تخصصی</h1>
-                <small data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="70" class="d-block">لورم اپسوم متن ساختگی با تولید ساختگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                <small data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="2000" class="d-block">لورم اپسوم متن ساختگی با تولید ساختگی نامفهوم از صنعت چاپ و با استفاده از طراحان
                   گرافیکی است.
                   <small class="d-block">چاپگرها و متون بلکه روزنامه و مجله در ستون</small>
                 </small>
-                <a href="#" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="90" class="btn btn-outline-light btn-lg mt-5">اطلاعات بیشتر <i
+                <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="3000">
+                <a href="#" class="btn btn-outline-light btn-lg mt-5">اطلاعات بیشتر <i
                     class="fas fa-arrow-left"></i></a>
+                    </div>
                 <div class="info-buttons">
                   <div class="matn">
                     <div class="info-box">
@@ -310,7 +314,7 @@
       <div class="swiper-button-prev bg-white rounded-circle"></div>
       <!-- <div class="swiper-pagination"></div> -->
     </div>
-    <section class="container ">
+    <sectio class="container">
       <div class="row align-items-center">
         <div class="col-6 mb-4">
           <img src="images/قالب پزشکی مدویل – برترین قالب پزشکی وردپرس_files/about.png" alt="" class="w-100 mt-23">
@@ -687,24 +691,27 @@
             <h2 class="m-4 text-center">درخواست وقت ملاقات</h2>
           </div>
           <div class="card-body">
-      <form action="#">
+      <form action="#" id="form">
         <div class="row justify-content-center">
-        <select name="" id="" class="col-12 col-md-5 me-2 p-2 cx bord">
+        <select name="section" id="section" class="col-12 col-md-5 me-2 p-2 cx bord">
           <option value="">انتخاب بخش</option>
           <option value="">دکتر رضایی</option>
-        </select>
-        <select name="" id="" class="col-12 col-md-5 ms-2 p-2 cx bord">
-          <option value="">انتخاب پزشک</option>
           <option value="">دکتر رضایی</option>
           <option value="">دکتر رضایی</option>
-          <option value="">دکتر محمدی</option>
-          <option value="">دکتر حامدی</option>
+          <option value="">دکتر رضایی</option>
         </select>
-        <input type="text" placeholder="نام کامل" name="username" class="col-12 col-md-5 me-2 p-2 my-4 bord">
-        <input type="text" placeholder="شماره تماس" class="col-12 col-md-5 ms-2 p-2 my-4 bord">
-        <input type="datetime" placeholder="تاریخ" class="col-12 col-md-5 me-2 p-2 my-3 bord">
-        <input type="time" placeholder="ساعت" class="col-12  col-md-5 ms-2 p-2 my-3 bord">
-        <textarea name="" id="" placeholder="پیام شما" class="w-102 my-4 bord pt-1"></textarea>
+        <select name="docter" id="docter" class="col-12 col-md-5 ms-2 p-2 cx bord">
+          <option value="انتخاب پزشک">انتخاب پزشک</option>
+          <option value="دکتر رضایی">دکتر رضایی</option>
+          <option value="دکتر رضایی">دکتر رضایی</option>
+          <option value="دکتر محمدی">دکتر محمدی</option>
+          <option value="دکتر حامدی">دکتر حامدی</option>
+        </select>
+        <input type="text" id="username" placeholder="نام کامل" name="username" class="col-12 col-md-5 me-2 p-2 my-4 bord">
+        <input type="text" id="tel" name="tel" placeholder="شماره تماس" class="col-12 col-md-5 ms-2 p-2 my-4 bord">
+        <input type="datetime" id="datetime" name="datetime" placeholder="تاریخ" class="col-12 col-md-5 me-2 p-2 my-3 bord">
+        <input type="time" id="time" name="time" placeholder="ساعت" class="col-12  col-md-5 ms-2 p-2 my-3 bord">
+        <textarea name="comments" id="comments" placeholder="پیام شما" class="w-102 my-4 bord pt-1"></textarea>
         <button type="submit" value="ثبت" class="w-26 h-50 mt-5 bord">
           <i></i>
           درخواست وقت ملاقات
@@ -842,12 +849,14 @@
           <h3 class="mb-5">عضویت در خبرنامه</h3>
            <p>ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه</p>
            <div class="d-flex">
+            <form action="#">
            <p class="position-relative m-0">
             <input type="email" name="Email" placeholder="ورود آدرس ایمیل" class="fk p-1">
             <button type="submit" value="Sing up" class="bgo hh">
               <i class="fas fa-arrow-left"></i>
               </button>
            </p>
+           </form>
            </div>
         </div>
       </div>
@@ -863,6 +872,8 @@
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/swiper.js"></script>
   <script src="js/swip.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/particles.min.js"></script>
 
 </body>
 
